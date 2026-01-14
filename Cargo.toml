@@ -18,7 +18,7 @@ webkit2gtk = "2.0"
 gtk = "0.18"
 gdk = "0.18"
 gdk-pixbuf = "0.18"
-glib = "0.18"
+glib = "0.20"
 gio = "0.18"
 
 [profile.release]
