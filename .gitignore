@@ -1,0 +1,30 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS generated
+Thumbs.db
+desktop.ini
+
+# Project specific packaging artifacts
+/deb_package/
+/rpm_package/
+/rpm_dist/
+/arch_dist/
+/arch_staging/
+*.deb
+*.rpm
+*.pkg.tar.zst
+
+# Local configuration & Data
+config.json
+cookies.txt
+webdata/
